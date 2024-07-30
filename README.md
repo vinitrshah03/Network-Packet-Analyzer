@@ -1,7 +1,7 @@
 # PRODIGY_CS_05
 Network Packet Analyzer
 
-This is a simple python tool used to sniff packets of mainly TCP and UDP protocols and capture their ip addresses, port numbers and protocol type. It by default captures for 10 seconds and stores the captured packet data in the file every 1 second for regular updates. 
+This is a simple python tool used to sniff packets of mainly TCP and UDP protocols and capture their ip addresses, port numbers, protocol type and the payload data in the each packet. It by default captures for 10 seconds and stores the captured packet data in the file every 1 second for regular updates. 
 
 DISCLAIMER: This tool has been developed only for educational purposes and the developer of this tool does not encourage any type of unethical use of this tool. The developer is not responsible or take responsibility for any sort of misuse of the tool by any person.   
 
@@ -29,6 +29,8 @@ How to use:
 - Make the above mentioned changes (optional)
 - Execute the python tool
 - View your captured data from the "pkt_data.txt" file
+
+Note: If you see (b'') in your pkt_data.txt under the payload field, then do not misunderstand this for an error. It just means that there was no payload found in the packet captured.
 
 Have a fun time seeing what your device does in the back when you are not doing anything or doing something on the network or on the Internet.
   
