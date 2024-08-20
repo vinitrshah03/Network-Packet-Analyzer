@@ -1,4 +1,4 @@
-# PRODIGY_CS_05
+# Simple Network Packet Analyzer
 Network Packet Analyzer
 
 This is a simple python tool used to sniff packets of mainly TCP and UDP protocols and capture their ip addresses, port numbers, protocol type and the payload data in the each packet. It by default captures for 10 seconds and stores the captured packet data in the file every 1 second for regular updates. 
